@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+main {
+  background-color: #000;
+  padding: 80px 0;
+}
+.mistake-title {
+  color: #c1c1c1;
+  text-align: center;
+}
+.mistake-title h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.mistake-title p {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 12px;
+  text-transform: capitalize;
+}
+#mistakeImgRow {
+  margin-top: 170px;
+}
+.text-red {
+  color: #ff0000;
+}
+
+#mistakeImgUpperText {
+  margin-bottom: 100px;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.mistakeImgLeft,
+.mistakeImgRight {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+.mistakeImgLeft h3,
+.mistakeImgRight h3 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.mistakeImgRight {
+  justify-content: space-between;
+}
+#text-1 {
+  max-width: 320px;
+  margin-left: auto;
+}
+#text-2 {
+  max-width: 260px;
+  margin-right: auto;
+}
+#text-3 {
+  max-width: 384px;
+}
+#text-4 {
+  max-width: 408px;
+}
+.mistakeMainImg {
+  position: relative;
+}
+.upperArrow {
+  position: absolute;
+  top: -92px;
+  left: 50%;
+}
+.leftUpper {
+  position: absolute;
+  left: -48px;
+  top: 82px;
+  transform: rotate(353deg);
+  width: 150px;
+}
+.leftBottom {
+  position: absolute;
+  left: -181px;
+  bottom: 86px;
+}
+.rightupper {
+  position: absolute;
+  right: -56px;
+  top: 49px;
+  width: 130px;
+  transform: rotate(354deg);
+}
+.rightBottom {
+  position: absolute;
+  bottom: 101px;
+  right: -141px;
+  width: 250px;
+}
+.manImg {
+  position: relative;
+  z-index: 10;
+}
+#shadow {
+  position: absolute;
+  bottom: 0;
+  left: -200px;
+  z-index: -1;
+  max-width: 800px;
+}
+
+/* why us start here  */
+.whyUs {
+  padding: 80px 0;
+}
+#whyUsTitle h2 {
+  color: #fff;
+}
+
+#whyUsTitle h2 span {
+  color: #afafaf;
+}
+#whyUsTitle p {
+  max-width: 880px;
+  margin: 12px auto 0;
+  line-height: 47px;
+}
+#whyUsTabRow {
+  margin-top: 63px;
+}
+#pills-tab {
+  justify-content: space-around;
+  position: relative;
+}
+
+.nav-pills .nav-link {
+  background-color: transparent;
+}
+.nav-pills .nav-link .btn-num {
+  background: #6d6d6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  border-radius: 50%;
+  height: 84px;
+  width: 84px;
+  position: relative;
+  z-index: 10;
+}
+.nav-pills .nav-link.active {
+  background-color: transparent;
+}
+.nav-pills .nav-link.active .btn-num {
+  color: #000;
+  background-color: #fff;
+}
+
+.nav-pills .nav-link .tab-btn-upper-txt {
+  color: #6d6d6d;
+  display: block;
+  text-align: center;
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+.nav-pills .nav-link.active .tab-btn-upper-txt {
+  color: #fff;
+}
+
+.tab-innerTitle {
+  position: relative;
+  margin-top: 80px;
+}
+.tab-innerTitle h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.tab-arrow1 {
+  position: absolute;
+  top: -67px;
+  width: 450px;
+  left: 166px;
+}
+#tabInnerRow {
+  margin-top: 60px;
+}
+.singleTabItem {
+  background-color: #ffffff1a;
+  padding: 40px;
+  border-radius: 12px;
+  height: 100%;
+}
+.singleTabImg {
+  width: 122px;
+  height: 122px;
+}
+.singleTabContent {
+  margin-top: 40px;
+}
+.singleTabContent h3 {
+  font-size: 24px;
+  color: #fff;
+}
+.singleTabContent p {
+  color: #c1c1c1;
+}
+.singleTabContent span {
+  display: block;
+  margin-top: 40px;
+  background-color: #ffa8001a;
+  width: 100%;
+  height: 6px;
+  border-radius: 20px;
+  position: relative;
+}
+#singleTabBar1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 40%;
+  background: #ffa800;
+  border-radius: 20px;
+}
+#singleTabBar2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 70%;
+  background: #dbff00;
+  border-radius: 20px;
+}
+#singleTabBar3 {
+  background: #24ff00;
+}
+#tab-btn-bg-bar {
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, #000000, #ffffff, #000000);
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
+.tab-arrow2 {
+  position: absolute;
+  top: -74px;
+  width: 176px;
+  left: 486px;
+}
+.tab-arrow3 {
+  position: absolute;
+  top: -74px;
+  width: 172px;
+  right: 484px;
+}
+.tab-arrow4 {
+  position: absolute;
+  top: -74px;
+  right: 160px;
+  width: 490px;
+}
